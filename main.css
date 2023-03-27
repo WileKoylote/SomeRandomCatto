@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-image: url("img/catpaw.png");
+background-repeat: repeat;}
+
+.firstCell{background-color:antiquewhite}
+.secondCell{background-color:#E254B1}
+
+.font{
+font-family: "goodlife-script", sans-serif;
+font-weight: 400;
+font-style: normal;}
+
+#catbox{
+width: 100%;
+padding: 0px 0px 0px 0px;
+background-color: #e9beef;
+}
+
+#leftbox{
+float: left;
+height: 441px;
+width: 50%;
+padding: 1px 1px 1px 10px;
+background-color: rgba(230,184,241,.90);}
+
+#rightbox{
+float: right;
+padding: 5px 0px 0px 6px;
+width: 48%;
+background-color: rgba(230,184,241,.90);}
+
+#infobox{
+text-align: center;
+align-content: center;
+clear:both;
+float: center;
+width: 100%;
+padding: 20px 0px 20px 0px;
+background-color: #e9beef;}
+
+nav{
+background-color: #e9beef;
+width: 100%;
+padding: 15px 0px 15px 0px;
+text-align: center;}
+
+a:link, a:visited {
+text-decoration: none;
+margin: 0px 5px 0px 5px;
+color: white;
+background-color: black;
+padding: 5px 5px 5px 5px;
+text-align: center;}
+
+header{
+height: 150px;
+background-color: #e9beef;
+text-align: center;}
+
+#bigbox{
+width: 850px;
+height: 1000px;
+margin:0 auto;
+}
+
+button{align-content: center;}
+
+footer{
+clear: both;
+width:100%;
+padding: 5px 0px 5px 0px;
+background-color: #e9beef;
+text-align: center;}
